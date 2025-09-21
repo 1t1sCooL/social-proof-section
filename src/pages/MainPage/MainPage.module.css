@@ -1,0 +1,9 @@
+.container {
+    max-width: 1110px;
+    margin: 3.375rem 1.5rem;
+}
+@media (max-width: 700px){
+    .container {
+        margin-top: 5rem;
+    }
+}

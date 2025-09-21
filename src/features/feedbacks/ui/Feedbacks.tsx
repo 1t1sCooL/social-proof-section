@@ -1,8 +1,9 @@
 import {UsersFeedback} from "@/features/feedbacks/ui/UsersFeedback";
+import styles from './Feedbacks.module.css'
 
 export const Feedbacks = () => {
     return (
-        <section className="product__testimonial">
+        <section className={styles.product__testimonial}>
             <UsersFeedback imgSrc={"/images/image-colton.jpg"} name={'Colton Smith'} feedback={`“ We needed the same printed design as the one we had ordered a week prior. Not only did
                         they find the original order, but we also received it in time. Excellent! ”`}/>
             <UsersFeedback className='margin-top--24' imgSrc={"/images/image-irene.jpg"} name={'Irene Roberts'} feedback={`“ Customer service is always excellent and very quick turn around. Completely delighted

@@ -1,0 +1,38 @@
+
+.heading p {
+    font-weight: 600;
+    font-size: .9rem;
+    align-self: baseline;
+    line-height: 1.8;
+    color: var(--pinkish-gray);
+    max-width: 480px;
+}
+.heading h1 {
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: -2.5px;
+    line-height: 1.1;
+    color: var(--dark-violet);
+    max-width: 350px;
+    margin-bottom: 1.8rem;
+    transition: ease-in-out 0.3s;
+}
+
+h1:hover {
+    color: var(--pink);
+    transition: ease-in-out 0.3s;
+}
+@media (max-width: 1250px) {
+    h1,
+    .heading p {
+        max-width: 100%;
+        margin: 0 140px;
+        text-align: center;
+    }
+}
+@media (max-width: 700px) {
+    .heading p {
+        padding-top: 0;
+        margin: 12px;
+    }
+}
