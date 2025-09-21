@@ -1,0 +1,8 @@
+:root {
+    --dark-violet: hsla(300, 43%, 22%, 1);
+    --pink: hsla(333, 80%, 67%, 1);
+    --pinkish-gray: hsla(303, 10%, 53%, 1);
+    --gray: hsla(0, 0%, 85%, 1);
+    --soft-gray: hsla(301, 23%, 96%, 1);
+    --bg: hsla(0, 0%, 100%, 1);
+}
