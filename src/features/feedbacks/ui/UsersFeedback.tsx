@@ -1,3 +1,5 @@
+import styles from './Feedbacks.module.css'
+
 interface IUsersFeedback{
     name: string
     feedback: string
@@ -7,12 +9,12 @@ interface IUsersFeedback{
 
 export const UsersFeedback = ({name, feedback, imgSrc, className}:IUsersFeedback) =>{
     return (
-        <div className={`product__testimonial__user ${className}`}>
-            <div className="profile__info">
-                <div className="profile__photo">
+        <div className={`${styles.product__testimonial__user} ${className}`}>
+            <div className={styles.profile__info}>
+                <div className={styles.profile__photo}>
                     <img src={imgSrc} alt="photography"/>
                 </div>
-                <div className="profile__name">
+                <div className={styles.profile__name}>
                     <h3>{name}</h3>
                     <h4>Verified Buyer</h4>
                 </div>

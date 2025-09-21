@@ -1,0 +1,19 @@
+.product__ad {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 3rem;
+}
+@media (max-width: 1250px){
+    .product__ad {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 700px){
+    .product__ad {
+        gap: 2rem;
+        padding-bottom: 2rem;
+    }
+}
