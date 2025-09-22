@@ -15,5 +15,18 @@
     .product__ad {
         gap: 2rem;
         padding-bottom: 2rem;
+        grid-template-columns: 650px;
+    }
+}
+@media (max-width: 500px){
+    .product__ad {
+        gap: 1rem;
+        grid-template-columns: 450px;
+    }
+}
+@media (max-width: 400px){
+    .product__ad {
+        gap: .5rem;
+        grid-template-columns: 350px;
     }
 }
