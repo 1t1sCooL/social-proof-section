@@ -28,8 +28,8 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Vercel](https://profile-card-component-drab-rho.vercel.app/)
-- Live Site URL: [mmalabugin.ru/SocialProofComponent/](https://mmalabugin.ru/ProfileCardComponent/)
+- Solution URL: [Vercel](https://social-proof-section-bice-mu.vercel.app/)
+- Live Site URL: [mmalabugin.ru/SocialProofSection/](https://mmalabugin.ru/SocialProofSection/)
 
 ## My process
 
