@@ -1,15 +1,29 @@
-import {UsersFeedback} from "@/features/feedbacks/ui/UsersFeedback";
-import styles from './Feedbacks.module.css'
+import { UsersFeedback } from "@/features/feedbacks/ui/UsersFeedback";
+import styles from "./Feedbacks.module.css";
 
 export const Feedbacks = () => {
-    return (
-        <section className={styles.product__testimonial}>
-            <UsersFeedback imgSrc={"/images/image-colton.jpg"} name={'Colton Smith'} feedback={`“ We needed the same printed design as the one we had ordered a week prior. Not only did
-                        they find the original order, but we also received it in time. Excellent! ”`}/>
-            <UsersFeedback className='margin-top--24' imgSrc={"/images/image-irene.jpg"} name={'Irene Roberts'} feedback={`“ Customer service is always excellent and very quick turn around. Completely delighted
-                                with the simplicity of the purchase and the speed of delivery. ”`}/>
-            <UsersFeedback className='margin-top--48' imgSrc={"/images/image-anne.jpg"} name={'Anne Wallace'} feedback={`“ Put an order with this company and can only praise them for the very high standard.
-                                Will definitely use them again and recommend them to everyone! ”`}/>
-        </section>
-    )
-}
+  return (
+    <section className={styles.product__testimonial}>
+      <UsersFeedback
+        imgSrc={"/SocialProofSection/images/image-colton.jpg"}
+        name={"Colton Smith"}
+        feedback={`“ We needed the same printed design as the one we had ordered a week prior. Not only did
+                        they find the original order, but we also received it in time. Excellent! ”`}
+      />
+      <UsersFeedback
+        className="margin-top--24"
+        imgSrc={"/SocialProofSection/images/image-irene.jpg"}
+        name={"Irene Roberts"}
+        feedback={`“ Customer service is always excellent and very quick turn around. Completely delighted
+                                with the simplicity of the purchase and the speed of delivery. ”`}
+      />
+      <UsersFeedback
+        className="margin-top--48"
+        imgSrc={"/SocialProofSection/images/image-anne.jpg"}
+        name={"Anne Wallace"}
+        feedback={`“ Put an order with this company and can only praise them for the very high standard.
+                                Will definitely use them again and recommend them to everyone! ”`}
+      />
+    </section>
+  );
+};
